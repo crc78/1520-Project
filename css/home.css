@@ -1,0 +1,19 @@
+body, html {
+  font-size: 12px;
+  font-family: Georgia;
+  background-color: rgb(58, 120, 89);
+}
+.nav-bar{
+ display: flex;
+ margin-top: 20px;
+}
+.nav-link {
+  color: rgb(246, 246, 238);
+  flex: 2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+}
+.nav-link:hover{
+  color: rgb(0, 77, 0);
+}
