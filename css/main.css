@@ -1,21 +1,36 @@
 body, html {
   font-size: 12px;
   font-family: Georgia;
-  background-color: rgb(246, 246, 238);
+  background-color: rgba(114, 114, 112, 0.5);
+  margin: 0;
 }
 .nav-bar{
  display: flex;
- margin-top: 20px;
+ /*margin-top: -10px;*/
+ padding-top: 50px;
+ height: 130px;
+ background: url(../img/nebula2.png) no-repeat center top;
+ width: 100%;
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;*/
+  background-size: cover;
 }
 .nav-link {
-  color: rgb(58, 120, 89);
+  padding-top: 10px;
+  color: white;
   flex: 2;
   text-align: center;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 17px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  height: 35px;
+  margin: 0 90px 0 90px;
 }
 .nav-link:hover{
-  color: rgb(0, 77, 0);
+  color: #9EC1AF; /*#9fdaa4; white;rgb(120, 136, 112);*/
+  background-color: rgba(114, 114, 112, 0.3);
 }
 #aboutParas{
   /* idk some padding/margins and styling*/
