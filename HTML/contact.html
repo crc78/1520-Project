@@ -13,20 +13,36 @@
 		  <a class="nav-link" href="contact.html">Contact</a>
 		  <a class="nav-link" href="photos.html">Photography</a>
 		  <a class="nav-link" href="resume.html">Resume</a>
-		  <a class="nav-link" href="spotify.html">Music</a>
 		</div>
 	  </nav>
 	</header>
 	
+	<p id="contactPara">Ask me a question, tell me a cool story, or maybe a funny joke.</p>
+
+	<div class="contact-form">
 	<!-- basic contact form stuff -->
-	<form>
-	  <!-- need to fix spacing and sizing -->
-	  Name:<br>
-	  <input type="text" name="name"><br>
-	  Comments:<br>
-	  <textarea></textarea><br>
-	  <input type="submit" value="Submit">
-	  
-	</form>
+		<form>
+		  <!-- need to fix spacing and sizing -->
+		  Name:<br>
+		  <input type="text" name="name" required><br><br><br>
+		  Email:<br>
+		  <input type="text" name="email" required><br><br><br>
+		  Comments:<br>
+		  <textarea required name="comment"></textarea><br><br><br>
+		  <center><input onclick="subClick()" id="subButton" type="submit" value="Submit"></center>
+		</form>
+	</div>
+
+	 <div class="profile">
+	 	<div class="profile-child">
+			<center>
+				<p>Caitlin Campbell</p>
+				<p>Computer Engineering Student, Knitting Fanatic, Cat Lover</p>
+				<img class="circular-pic" src="../img/me.png" />
+			</center>
+		</div>
+	</div>
+
+	<script src="../js/main.js"></script>
   </body>
  </html>
