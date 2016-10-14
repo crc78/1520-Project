@@ -17,6 +17,6 @@ function imageSwitch(name){
     document.getElementById('previewDescription').innerHTML = "Idle hands become lost.";
   }
   else{
-    document.getElementById('previewDescription').innerHTML = "You left me hanging. To dry, to rot, to die."
+    document.getElementById('previewDescription').innerHTML = "You left me hanging. To dry, to rot, to die.";
   }
 }
